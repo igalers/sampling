@@ -10,10 +10,35 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: NEDIM IGAL ERS BENVENISTE
 
 ```
-Please write your explanation here...
+Sampling Steps:
+
+1) Method: Simple Random Sampling 
+   Frame: 1000 people (event attendees)
+   Size: 100 (10%)
+   Each person has an equal probability of being infected
+   Code used is np.random.choice
+
+2) Method: Simple Random Sampling
+   Frame: Previously infected individuals
+   Size: 0.20 of the frame
+   Sampled with a probability of being traced
+   Code used is np.random.choice
+
+3) Method: Cluster sampling, events as clusters
+   Frame: All event attendees
+   Size: varies depending on how many meet the threshold
+   Conditional probability
+   Code includes event types, divvying into clusters
+   
+This code doesn't produce the graphs from the original blog post. In the blog post, the red (observed) distribution is more widely spread out and shifted to the right and the mean observed proportion is around double the true proportion. In the graphs produced, the red and blue distributions have more overlap and are less spread out. 
+
+After modifying the code and running the script 5 times, I observe the results are very inconsistent, therefore do not appear to be reproducible.
+
+Adding a seed made the results much more consistent. After rerunning the new script a few times, I see reproducibility is achieved. The graphs display the same distributions.
+As suggested in the question, they're not similar to the ones in the blog post.cd
 
 ```
 
