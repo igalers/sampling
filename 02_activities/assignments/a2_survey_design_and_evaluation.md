@@ -40,30 +40,62 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose is to get insights from voters on key issues, leadership qualities and campaign priorities.
+The insights gathered will inform decisions on which issues to focus on, outreach strategies and allocation of funding.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: Eligible voters in Canada who are likely to vote in the upcoming federal election
+
+Sampling Frame: A mix of registered voter databases, online groups and phone surveys
+
+Sampling Units: Individual eligible voters
+
+Sampling strategy: Multi Stage Mixed Use Strategy 
+1st Stage: Stratified sampling - diving the population into strata geographically across provinces and territories
+2nd Stage: Cluster sampling - within each stratum, selecting clusters such neighborhoods with urban areas, and households for phone or in-person surveys
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How likely are you to vote in the upcoming election?
+-very likely
+-likely
+-unlikely
+-very unlikely
+
+2. Which of the following issues is most important to you when deciding whom to vote for? (Select up to three)
+-Economy and job creation
+-Healthcare and affordability of services
+-Climate change and environmental policies
+-Education and student support
+-Housing affordability and availability
+-National security and public safety
+-Indigenous rights and reconciliation
+-Taxes and government spending
+-Other (please specify)
+
+3. How satisfied are you with our party's performance during this campaign? (1 = Very dissatisfied, 10 = Very satisfied)
+
+4. Which party do you currently intend to vote for?
+-Our party
+-Main opposition
+-Another party
+-Undecided
+
+5. What is your primary source of political information?
+-Traditional media(TV, newspapers, radio)
+-Social media(Facebook, X, Instagram, TikTok)
+-Political party websites and party-affiliated online groups
+-Word of mouth/discussions with family and friends
+-Other(please specify)
+
+6. Do you have any additional comments on how our party can secure your vote in this election? (Open-ended)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,8 +103,24 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
-```
+1. Sample type: a two-stage stratified sample design with a cross-sectional approach
+2. Sample size: approximately 21000
+3. Target population: The target population for the GSS Giving, volunteering and participating includes all persons 15 years of age and older living in the ten provinces of Canada. 
+                      It excludes full-time (residing for more than six months) residents of institutions.
+4. Sampling frame: A combined frame of landline and cellular telephone numbers derived from the Census and various administrative sources, linked to Statistics Canada's dwelling frame
+5. Survey mode(s): Data are collected directly from survey respondents either through an electronic questionnaire or through CATI (computer assisted telephone interviewing)
+6. Timeline: Every 5 years, from September to December
+7. Response rate: The overall response rate is 41.9%
+8. Weights: WGHT_PER: This is the basic weighting factor for analysis at the person level, i.e. to calculate estimates of the number of persons (non-institutionalized and aged 15 or over) having one or several given characteristics.
+                      In addition to the estimation weights, bootstrap weights have been created for the purpose of design-based variance estimation.
+9. Data processing: All survey records were subjected to computer edits throughout the course of the interview. 
+                    The CATI system principally edited the flow of the questionnaire and identified out of range values. 
+                    If the interviewer was unable to correctly resolve the detected errors, the interviewer bypassed the edit and forwarded the data to head office for resolution. 
+10. Cleaning, imputation, etc: Except in a few cases, all imputations were made using donor records selected through a score function. 
+                               Where donor imputation could not be used, mean imputation among a pool of donors was used.
+11. Sources of error: Sampling error, Non-sampling error, Coverage error, Other non-sampling errors 
+12. Limitations, known biases, etc: Non-response bias
+13. Link to documentation and any additional sources used: https://www150.statcan.gc.ca/n1/en/catalogue/89F0115X
 
 ## Rubric
 
